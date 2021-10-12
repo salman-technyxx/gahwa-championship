@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html class="gc-html loading" dir="<%= htmlWebpackPlugin.options.dir %>" lang="<%= htmlWebpackPlugin.options.lang %>">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>GAHWA Championship</title>
+        <%= require('ejs-loader!../partials/head.html')({ htmlWebpackPlugin }) %>
+    </head>
+    <body class="gc-body gc-component body-hide gc-gray-page" data-comp-name="animation" data-animation="true">
+        <%= require('ejs-loader!../partials/header.html')({ htmlWebpackPlugin }) %>
+        <div class="gc-main-content">
+            <h1>404</h1>
+        </div>
+        <%= require('ejs-loader!../partials/footer.html')({ htmlWebpackPlugin }) %>
+        <%= require('ejs-loader!../partials/foot.html')({ htmlWebpackPlugin }) %>
+    </body>
+</html>

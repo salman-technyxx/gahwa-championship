@@ -1,0 +1,10 @@
+{
+    "siteConfig": {
+        "alternateLang": "English",
+        "alternateURL": "../en/index.html",
+        "headerLogo": {
+            "logoColor": "../img/logo/logo-en-color.svg",
+            "logoColorAlt" : "logo Color"
+        }
+    }
+}

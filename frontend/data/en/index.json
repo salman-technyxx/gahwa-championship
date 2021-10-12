@@ -1,0 +1,13 @@
+{
+    "siteConfig": {
+        "alternateLang": "عربي",
+        "landingPage": "../en",
+        "headerLogo": {
+            "logoColor": "../img/logo/logo-en-color.svg",
+            "logoColorAlt" : "logo Color"
+        }
+    },
+    "firstBanner" : {
+        "title" : "GAHWA Championship"
+    }
+}

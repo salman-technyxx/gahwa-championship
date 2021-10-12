@@ -1,0 +1,13 @@
+{
+  "beautify.language": {
+    "js": {
+      "type": ["javascript", "json"],
+      "filename": [".jshintrc", ".jsbeautifyrc"]
+    },
+    "css": ["css", "scss"],
+    "html": ["htm", "html"]
+  },
+  "editor.formatOnSave": false,
+  "beautify.ignore": ["*/test.js", "**/spec/*", "**/test/**/*"]
+}
+

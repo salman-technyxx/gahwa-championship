@@ -1,0 +1,11 @@
+# Build results
+/ar/
+/en/
+css/
+js/
+
+# Node.js Tools for Visual Studio
+.ntvs_analysis.dat
+node_modules/
+**/node_modules/
+package-lock.json

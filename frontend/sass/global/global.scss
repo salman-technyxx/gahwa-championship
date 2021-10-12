@@ -1,0 +1,28 @@
+html,
+body {
+    @apply block m-0 w-full;
+    &.hide-scroll {
+        @apply overflow-hidden;
+    }
+}
+.container {
+    @apply my-0 mx-auto;
+    max-width: 1272px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+// Typography
+button,a{
+    @apply outline-none border-0;
+    &:focus{
+        @apply outline-none;
+    }
+}
+strong{
+    @apply font-bold;
+}
+
+
+// gloabl Scss
+.sec-padded {
+}

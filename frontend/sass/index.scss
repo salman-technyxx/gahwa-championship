@@ -1,0 +1,27 @@
+// Tailwind files
+@import "tailwindcss/base";
+@import "tailwindcss/utilities";
+@import "tailwindcss/components";
+@import "tailwindcss/screens";
+/* purgecss start ignore */
+
+
+// Vendor styles
+/*rtl:begin:ignore*/
+@import "select2";
+@import "slick-carousel/slick/slick";
+/*rtl:end:ignore*/
+
+// Add vendor styles
+@import "vendor/jquery.fancybox.css";
+
+// Global styles
+@import "global/fonts";
+@import "global/global";
+
+// //import Components css
+@import "components/header";
+@import "components/footer";
+@import "components/banner";
+
+/* purgecss end ignore */
