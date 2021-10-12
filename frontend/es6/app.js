@@ -6,7 +6,7 @@ import {
 	$body, lazyModule, $window, $document
 } from './util/helpers';
 import Polyfill from './polyfills';
-import SiteCookie from './cookies';
+// import SiteCookie from './cookies';
 
 window.isAppLoaded = window.isAppLoaded || false;
 
@@ -39,8 +39,8 @@ class App {
 		});
 
 		// init Site cookies js
-		this.SiteCookie = new SiteCookie();
-		this.SiteCookie.init();
+		// this.SiteCookie = new SiteCookie();
+		// this.SiteCookie.init();
 	}
 }
 
