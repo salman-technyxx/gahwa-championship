@@ -7,9 +7,9 @@ body {
 }
 .container {
     @apply my-0 mx-auto;
-    max-width: 1272px;
-    padding-left: 16px;
-    padding-right: 16px;
+    max-width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 // Typography
 button,a{
@@ -21,8 +21,38 @@ button,a{
 strong{
     @apply font-bold;
 }
-
-
+h1,
+.heading1 {
+    @apply text-84;
+}
+h2,
+.heading2 {
+    @apply text-36 md:text-64;
+}
+h3,
+.heading3 {
+    @apply text-56;
+}
+h4,
+.heading4 {
+    @apply text-32 md:text-48;
+}
+h5,
+.heading5 {
+    @apply text-32;
+}
+h6,
+.heading6 {
+    @apply text-16 md:text-24;
+}
+p,
+.para {
+    @apply text-16;
+    &.lead {
+        @apply text-24;
+    }
+}
 // gloabl Scss
 .sec-padded {
+    padding: 100px 0;
 }

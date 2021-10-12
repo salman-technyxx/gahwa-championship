@@ -13,13 +13,46 @@ module.exports = {
 					100: '#FFFFFF',
 					900: '#000000',
 				},
+				primary: '#E89481',
+				secondary: '#94645F',
+				style1: '#8BAAA1',
+				style2: '#B89F7C',
+				style3: '#3F4C63',
+				style3: '#343838'
 
 			},
 			fontFamily: {
 				sans: ['FS Albert Arabic']
 			},
 			fontSize: {
+				84: ['84px', {
+					lineHeight: '1.1'
+				}],
+				64: ['64px', {
+					lineHeight: '1.1'
+				}],
+				56: ['56px', {
+					lineHeight: '1.1'
+				}],
 				48: ['48px', {
+					lineHeight: '1.1'
+				}],
+				36: ['36px', {
+					lineHeight: '1.1'
+				}],
+				32: ['32px', {
+					lineHeight: '1.1'
+				}],
+				24: ['24px', {
+					lineHeight: '1.1'
+				}],
+				20: ['20px', {
+					lineHeight: '1.1'
+				}],
+				16: ['16px', {
+					lineHeight: '1.1'
+				}],
+				10: ['10px', {
 					lineHeight: '1.1'
 				}],
 			},
