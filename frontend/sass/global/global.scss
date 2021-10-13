@@ -6,10 +6,7 @@ body {
     }
 }
 .container {
-    @apply my-0 mx-auto;
-    max-width: 1170px;
-    padding-left: 15px;
-    padding-right: 15px;
+    @apply my-0 mx-auto px-gridgutter max-w-full md:max-w-screen-sm lg:max-w-container991 xl:max-w-container;
 }
 // Typography
 button,a{
@@ -54,5 +51,5 @@ p,
 }
 // gloabl Scss
 .sec-padded {
-    padding: 100px 0;
+    @apply py-section md:py-section1;
 }

@@ -15,10 +15,10 @@ module.exports = {
 				},
 				primary: '#E89481',
 				secondary: '#94645F',
-				style1: '#8BAAA1',
-				style2: '#B89F7C',
-				style3: '#3F4C63',
-				style3: '#343838'
+				colorGreen: '#8BAAA1',
+				colorBrown: '#B89F7C',
+				colorBlue: '#3F4C63',
+				colorGray: '#343838'
 
 			},
 			fontFamily: {
@@ -60,16 +60,15 @@ module.exports = {
 				'tracking-001': '0.01em',
 			},
 			gap: {
-				gutter: '24px',
-				gutterlg: '32px',
-				gutterbeautiful: '202px',
+				gutter: '30px'
 			},
 			padding: {
 				column: '72px',
 			},
 			spacing: {
-				section: '64px',
-				section1: '128px',
+				section: '100px',
+				section1: '50px',
+				gridgutter: '15px'
 			},
 			screens: {
 				'hover-hover': { raw: '(hover: hover)' }
@@ -98,6 +97,10 @@ module.exports = {
 				15: 15,
 				auto: 'auto',
 			},
+			maxWidth: {
+				container: '1170px',
+				container991: '991px'
+			}
 		},
 	},
 	variants: {
