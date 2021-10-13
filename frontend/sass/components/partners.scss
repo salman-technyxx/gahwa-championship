@@ -8,7 +8,14 @@
         picture {
             img {
                 min-height: 134px;
-                margin: 90px 0 50px;
+                margin: 75px 0 50px;
+                @media (max-width: 768px) {
+                    min-height: 105px;
+                    margin: 50px 0 20px;
+                }
+                &:hover {
+                    filter: grayscale(1);
+                }
             }
         }
         .para {
