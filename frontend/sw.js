@@ -9,8 +9,7 @@ const urlsToCache = [
 	'img/logo/logo-en-white.svg',
 	'img/logo/logo-ar-color.svg',
 	'img/logo/logo-ar-white.svg',
-	'fonts/FSAlbertArabic-Regular.woff2',
-	'fonts/FSAlbertArabic-Bold.woff2',
+	'fonts/Effra-Regular.woff',
 ];
 
 // cache files locally

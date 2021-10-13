@@ -13,13 +13,46 @@ module.exports = {
 					100: '#FFFFFF',
 					900: '#000000',
 				},
+				primary: '#E89481',
+				secondary: '#94645F',
+				colorGreen: '#8BAAA1',
+				colorBrown: '#B89F7C',
+				colorBlue: '#3F4C63',
+				colorGray: '#343838'
 
 			},
 			fontFamily: {
-				sans: ['FS Albert Arabic']
+				sans: ['Effra']
 			},
 			fontSize: {
+				84: ['84px', {
+					lineHeight: '1.1'
+				}],
+				64: ['64px', {
+					lineHeight: '1.1'
+				}],
+				56: ['56px', {
+					lineHeight: '1.1'
+				}],
 				48: ['48px', {
+					lineHeight: '1.1'
+				}],
+				36: ['36px', {
+					lineHeight: '1.1'
+				}],
+				32: ['32px', {
+					lineHeight: '1.1'
+				}],
+				24: ['24px', {
+					lineHeight: '1.1'
+				}],
+				20: ['20px', {
+					lineHeight: '1.1'
+				}],
+				16: ['16px', {
+					lineHeight: '1.1'
+				}],
+				10: ['10px', {
 					lineHeight: '1.1'
 				}],
 			},
@@ -27,16 +60,15 @@ module.exports = {
 				'tracking-001': '0.01em',
 			},
 			gap: {
-				gutter: '24px',
-				gutterlg: '32px',
-				gutterbeautiful: '202px',
+				gutter: '30px'
 			},
 			padding: {
 				column: '72px',
 			},
 			spacing: {
-				section: '64px',
-				section1: '128px',
+				section: '100px',
+				section1: '50px',
+				gridgutter: '15px'
 			},
 			screens: {
 				'hover-hover': { raw: '(hover: hover)' }
@@ -65,6 +97,10 @@ module.exports = {
 				15: 15,
 				auto: 'auto',
 			},
+			maxWidth: {
+				container: '1170px',
+				container991: '991px'
+			}
 		},
 	},
 	variants: {
