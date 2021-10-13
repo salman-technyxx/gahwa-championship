@@ -22,7 +22,7 @@ module.exports = {
 
 			},
 			fontFamily: {
-				sans: ['FS Albert Arabic']
+				sans: ['Effra']
 			},
 			fontSize: {
 				84: ['84px', {

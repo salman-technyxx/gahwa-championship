@@ -1,6 +1,6 @@
 html,
 body {
-    @apply block m-0 w-full;
+    @apply block m-0 w-full font-sans;
     &.hide-scroll {
         @apply overflow-hidden;
     }
