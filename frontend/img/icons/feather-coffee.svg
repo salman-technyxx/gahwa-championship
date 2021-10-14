@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="41.188" height="39.322" viewBox="0 0 41.188 39.322">
+  <g id="Icon_feather-coffee" data-name="Icon feather-coffee" transform="translate(1 1)">
+    <path id="Path_1301" data-name="Path 1301" d="M19.866,23.929H18a1,1,0,0,1,0-2h1.866A6.464,6.464,0,1,0,19.866,9H18a1,1,0,0,1,0-2h1.866a8.464,8.464,0,1,1,0,16.929Z" transform="translate(11.858 5.063)" fill="#94645f"/>
+    <path id="Path_1302" data-name="Path 1302" d="M2,7H31.858a1,1,0,0,1,1,1V24.8a8.474,8.474,0,0,1-8.464,8.464H9.464A8.474,8.474,0,0,1,1,24.8V8A1,1,0,0,1,2,7ZM30.858,9H3V24.8a6.472,6.472,0,0,0,6.464,6.464H24.393A6.472,6.472,0,0,0,30.858,24.8Z" transform="translate(-2 5.063)" fill="#94645f"/>
+    <path id="Path_1303" data-name="Path 1303" d="M6,7.6a1,1,0,0,1-1-1V1A1,1,0,0,1,7,1V6.6A1,1,0,0,1,6,7.6Z" transform="translate(1.464 -1)" fill="#94645f"/>
+    <path id="Path_1304" data-name="Path 1304" d="M10,7.6a1,1,0,0,1-1-1V1a1,1,0,0,1,2,0V6.6A1,1,0,0,1,10,7.6Z" transform="translate(4.929 -1)" fill="#94645f"/>
+    <path id="Path_1305" data-name="Path 1305" d="M14,7.6a1,1,0,0,1-1-1V1a1,1,0,0,1,2,0V6.6A1,1,0,0,1,14,7.6Z" transform="translate(8.393 -1)" fill="#94645f"/>
+  </g>
+</svg>

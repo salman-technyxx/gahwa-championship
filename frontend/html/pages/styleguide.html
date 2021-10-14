@@ -10,7 +10,8 @@
 
 <body class="gc-body">
     <%= require('html-loader?attrs=false!../partials/header.html') %>
-        <%= require('html-loader?attrs=false!../partials/typography.html') %>
+    <%= require('html-loader?attrs=false!../partials/typography.html') %>
+    <%= require('html-loader?attrs=false!../partials/part-of-your-day.html') %>
     <%= require('html-loader?attrs=false!../partials/footer.html') %>
     <%= require('ejs-loader!../partials/foot.html')({ htmlWebpackPlugin }) %>
 </body>
