@@ -51,5 +51,5 @@ p,
 }
 // gloabl Scss
 .sec-padded {
-    @apply py-section md:py-section1;
+    @apply md:py-section py-section1;
 }
