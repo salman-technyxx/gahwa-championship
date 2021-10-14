@@ -1,17 +1,13 @@
 .gc-get-in-touch {
+    position: relative;
     .sec-wrap {
-        position: relative;
         .content-wrap {
             .contact-btn {
                 max-width: 140px;
             }
         }
-        .bottom-img {
-            position: absolute;
-            width: 100%;
-            bottom: 0;
-            left: 0;
-            height: 100%;
-        }
+    }
+    .bottom-img {
+        margin-top: 60px;
     }
 }
